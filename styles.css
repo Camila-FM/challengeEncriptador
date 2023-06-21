@@ -1,0 +1,196 @@
+html{
+    background-color: #f3f5fc;
+}
+header{
+    width: 100%;
+}
+header .imagenE{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.ingreso{
+    border: 0;
+    background-color: #f3f5fc;
+    width: 30%;
+    height: 48px;
+    margin-left: 15%;
+    margin-top: 168px;
+    
+}
+
+p{
+    margin-left: 15%;
+    width: 30%;
+    margin-top: 350px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 30%;
+    height: 67px;
+    left: 15%;
+    top: 685px;
+}
+.btnE{
+    border-radius: 20px;
+    width: 45%;
+    padding: 20px;
+    background-color: rgb(5, 0, 75);
+    color: #f3f5fc;
+
+}
+.btnD{
+    border-radius: 20px;
+    width: 45%;
+    padding: 20px;
+    background-color: #f3f5fc;
+}
+
+
+.salida{/*
+    width: 400px;
+    float: right;
+    border: 25pt black;
+    background-color: #f3f5f5;
+    height: 944px;
+*/
+    position: absolute;
+    width: 30%;
+    height: 700px;
+    left: 60%;
+    top: 40px;
+    right: 10%;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+#imagBuscar{
+    width: 80%;
+    height: 300px;
+}
+.txtA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    
+    width: 80%;
+    height: 122px;
+    margin: 100px 10% 0px 10%;
+    border: none;
+
+}
+.btnC{
+    width: 80%;
+    margin: 200px 10% 0px 10%;
+    background-color: #0081b4;
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+}
+
+
+@media screen and (max-width:928px) {
+    .ingreso{
+        height: 48px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        top: 240px;
+        border-radius: nullpx;
+
+    }
+    p{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 95px;
+    }
+
+    .btns{
+        height: 67px;
+        width: 90%;
+        left: 40px;
+        top: 470px;
+        border-radius: 0px;
+
+    }
+    .btnE, .btnD{
+        width: 50%;
+    }
+    .salida{
+        height: hug(343px);
+        width: 80%;
+        left: 5%;
+        top: 601px;
+        border-radius: 32px;
+        padding: 32px;
+    }
+    .txtA{
+        margin-top: 80px
+    }
+}
+
+/*@media screen and (max-width:674px) {
+
+    .ingreso{
+        height: 48px;
+        width: 443px;
+        margin-left: 16px;
+        top: 152px;
+        border-radius: nullpx;
+
+    }
+    .btns{
+        height: 158px;
+        width: 343px;
+        left: 16px;
+        top: 485px;
+        border-radius: 0px;
+        display: block;
+
+    }
+    .btnE, .btnD{
+        width: 343px;
+        height: 57px;/*134*/
+
+    /*}
+    .btnD{
+        margin-top: 16px;
+    }
+    .salida{
+        height: 486px;
+        width: 343px;
+        left: 16px;
+        top: 707px;
+        border-radius: 32px;
+        padding: 32px;
+
+    }
+    .txtA{
+        width: 323px;
+        height: 150px;
+        margin: 30px 10px 0px 10px;
+
+    }
+    .btnC{
+        width: 300px;
+        height: 67px;
+        margin: 30px 13.5px 0px 13.5px;
+    }
+}*/

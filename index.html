@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="script.js"></script>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <img class="imagenE" src="img/unnamed.png" alt="">
+
+        </header>
+ 
+        <img class="imag" src="" alt="">
+        <input id="inputTxtI" class="ingreso" type="text" placeholder="Ingrese texto aquí">
+    
+        <p><i class="fab fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p>
+
+        <div class="btns">
+            <input id="btnEn" class="btnE" type="submit" title="btn1" value="Encriptar">
+            <input id="btnDe" class="btnD" type="submit" title="btn2" value="Desencriptar">
+        </div>
+
+        <article class="salida">
+            <img id="imagBuscar" src="img/buscar.jpg" alt="">
+            <textarea id="txtArea" class="txtA" name="textoA" id="" cols="30" rows="10" placeholder="Ingresa el texto que deseas encriptar o desencriptar"></textarea>
+            <input id="btnCopy" class="btnC" type="submit" value="Copiar">
+        </article>
+        <script> 
+            var btnEncriptar = document.querySelector("#btnEn");
+            btnEncriptar.onclick = encriptar;
+
+            var btnDesencriptar = document.querySelector("#btnDe");
+            btnDesencriptar.onclick = desencriptar;
+
+            var btnCopiar = document.querySelector("#btnCopy");
+            btnCopiar.onclick = copiar;
+
+
+        </script>
+        
+
+    </body>
+</html>
